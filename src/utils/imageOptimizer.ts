@@ -2,8 +2,6 @@
  * Tiện ích tối ưu hóa hình ảnh cho ứng dụng 3D
  */
 
-import { StaticImageData } from "next/image";
-
 // Cache cho hình ảnh đã tối ưu
 const optimizedImageCache = new Map<string, string>();
 
